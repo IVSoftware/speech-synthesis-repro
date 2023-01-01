@@ -56,7 +56,7 @@ namespace speech_synthesis_repro
             this.numericUpDown2.Location = new System.Drawing.Point(12, 56);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(66, 26);
-            this.numericUpDown2.TabIndex = 0;
+            this.numericUpDown2.TabIndex = 1;
             this.numericUpDown2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.numericUpDown2.ValueChanged += new System.EventHandler(this.numericUpDown2_ValueChanged);
             // 
@@ -84,7 +84,7 @@ namespace speech_synthesis_repro
             this.numericUpDown3.Location = new System.Drawing.Point(12, 100);
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(66, 26);
-            this.numericUpDown3.TabIndex = 0;
+            this.numericUpDown3.TabIndex = 2;
             this.numericUpDown3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.numericUpDown3.ValueChanged += new System.EventHandler(this.numericUpDown3_ValueChanged);
             // 
