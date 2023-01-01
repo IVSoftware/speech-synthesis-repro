@@ -49,7 +49,7 @@ namespace speech_synthesis_repro
             var captureCount = ++_changeCount;
             var say = $"{numericUpDown3.Value}";
             Task
-                .Delay(TimeSpan.FromMilliseconds(100))
+                .Delay(TimeSpan.FromMilliseconds(250))
                 .GetAwaiter()
                 .OnCompleted(() => 
                 {
