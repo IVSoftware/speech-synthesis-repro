@@ -1,6 +1,9 @@
 Let's assume you have taken Neil's excellent comment into consideration, and checked the repeat rate of the `NumericUpDown` control on the other PCs "without" calling the speech engine. Good.
 
-Your code looks right. The `SpeakAsyncCancelAll` and `SpeakAsync` do not block and are "expected" to be running on a background thread. When I attempted to reproduce the problem (not a shocker) your code works fine on my PC using the test condition you describe. That being the case, maybe you could try a couple of variations on the slim chance that something makes a difference and yields some kind of clue by ruling out some unlikely issues.  
+Your code looks right. The `SpeakAsyncCancelAll` and `SpeakAsync` do not block and are "expected" to be running on a background thread. When I attempted to reproduce the problem (not a shocker) your code works fine on my PC using the test condition you describe. That being the case, maybe you could try a few variations on the slim chance that something makes a difference and yields some kind of clue by ruling out some unlikely issues.
+
+![screenshot](https://github.com/IVSoftware/speech-synthesis-repro/blob/master/speech-synthesis-repro/Screenshots/screenshot.png)
+
 
 ***
 **Variation 1**
